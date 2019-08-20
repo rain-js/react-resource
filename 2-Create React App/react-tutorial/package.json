@@ -2,7 +2,7 @@
   "name": "react-tutorial",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rain-js.github.io/react-tutorial",
+  "homepage": "https://rain-js.github.io/react-resource/",
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
