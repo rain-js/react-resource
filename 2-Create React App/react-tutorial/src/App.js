@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Table from './Table'
 import Form from './Form'
+import Info from './Info'
 
 class App extends Component {
   state = {
@@ -32,6 +33,7 @@ class App extends Component {
 
     return (
       <div className="container">
+        <Info />
         <Table tableData={tableData} remove={this.remove}/>
         <Form submitForm={this.handleFormSubmit}/>
       </div>
