@@ -6,6 +6,24 @@ export default {
   ],
   routes: [{
     path: '/',
-    component: './HelloWorld'
+    component: '../layouts',
+    routes: [
+      {
+        path: '/',
+        component: './HelloWorld'
+      },
+      {
+        path: 'helloWorld',
+        component: './HelloWorld'
+      },
+      {
+        path: 'tabDemo',
+        component: './TabDemo'
+      },
+      {
+        path: 'cardDemo',
+        component: './CardDemo'
+      }
+    ]
   }]
 }
