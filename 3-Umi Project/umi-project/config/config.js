@@ -23,6 +23,19 @@ export default {
       {
         path: 'cardDemo',
         component: './CardDemo'
+      },
+      {
+        path: 'dashboard',
+        routes: [{
+          path: 'analysis',
+          component: './Dashboard/Analysis'
+        }, {
+          path: 'monitor',
+          component: './Dashboard/Monitor'
+        }, {
+          path: 'workplace',
+          component: './Dashboard/Workplace'
+        }]
       }
     ]
   }]
